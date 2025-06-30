@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Kian Khosravy, a software engineering student.">
+    <title>Kian Khosravy - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#home">Kian Khosravy</a>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="hero">
+                <h1>Hi, I'm Kian. I create code for a better world.</h1>
+                <p>A software engineering student passionate about clean code, problem-solving, and learning new technologies.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <img src="https://avatars.githubusercontent.com/u/66801062?s=400&u=6bd85a71acc32d2cbaabe17a30941aa6703ca38f&v=4" alt="Kian Khosravy's headshot">
+                <p>I am a Software Engineering student at the University of Alberta with a passion for developing efficient and effective software solutions. I have experience in building Android applications, Python-based games, and responsive websites. I enjoy troubleshooting complex technical issues and rapidly learning new programming languages and tools. My goal is to leverage my skills in object-oriented design and problem-solving to contribute to innovative projects.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="Images/DiscordMusicBot.png" alt="Discord Music Bot">
+                    <div class="project-card-content">
+                        <h3>Discord Music Bot</h3>
+                        <p>A Discord bot built with Python and discord.py that plays music from YouTube in a Discord voice channel, allowing users to create and manage a shared listening queue.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/KianErfan/Music-Bot/" class="btn" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="Images/AndroidMusic.jpg" alt="Android Music Player">
+                    <div class="project-card-content">
+                        <h3>Android Music Player</h3>
+                        <p>An intuitive and lightweight music player built for Android, providing a clean interface and essential features for a seamless listening experience.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/KianErfan/Android-Music-Player" class="btn" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="Images/FunPythonFiles.png" alt="Fun Python Files">
+                    <div class="project-card-content">
+                        <h3>Fun Python Files</h3>
+                        <p>A collection of small, interactive games and programs built using Python, demonstrating simple programs and easy to learn projects.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/KianErfan/Fun-Python-Files" class="btn" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Programing<br>Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Software</h3>
+                    <ul>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Microsoft Office</li>
+                        <li>Inteliji</li>
+                        <li>Pycharm</li>
+                        <li>Sypder</li>
+
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git</li>
+                        <li>Numpy</li>
+                        <li>MatplotLib</li>
+                        <li>Linux Mint</li>
+                        <li>Manjaro</li>
+                        <li>and many more</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-social-links">
+            <a href="https://github.com/KianErfan" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:kiankhosravy1@gmail.com" aria-label="Send an Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+        <p>© 2025 Kian Khosravy. All rights reserved.</p>
+    </footer>
+
+    <div id="canvas-container"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>
